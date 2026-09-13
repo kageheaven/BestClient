@@ -232,6 +232,15 @@ MACRO_CONFIG_INT(Bc3dParticlesGlow, bc_3d_particles_glow, 0, 0, 1, CFGFLAG_CLIEN
 MACRO_CONFIG_INT(Bc3dParticlesGlowAlpha, bc_3d_particles_glow_alpha, 35, 1, 100, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Glow alpha of 3D particles (1-100)")
 MACRO_CONFIG_INT(Bc3dParticlesGlowOffset, bc_3d_particles_glow_offset, 2, 1, 20, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Glow offset for 3D particles")
 
+// Night mode (Neverlose-style)
+MACRO_CONFIG_INT(BcNightMode, bc_nightmode, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Neverlose-style night mode")
+MACRO_CONFIG_INT(BcNightModeDarkness, bc_nightmode_darkness, 85, 0, 100, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Night mode darkness (0-100)")
+MACRO_CONFIG_INT(BcNightModeLightRadius, bc_nightmode_light_radius, 400, 50, 2000, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Night mode light radius around player")
+MACRO_CONFIG_COL(BcNightModeLightColor, bc_nightmode_light_color, 4294967295, CFGFLAG_CLIENT | CFGFLAG_SAVE | CFGFLAG_COLALPHA, "Night mode light color")
+MACRO_CONFIG_INT(BcGlow, bc_glow, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Entity glow")
+MACRO_CONFIG_INT(BcGlowStrength, bc_glow_strength, 60, 0, 100, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Glow strength")
+MACRO_CONFIG_INT(BcVignette, bc_vignette, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Vignette")
+
 // Sweat weapon
 MACRO_CONFIG_INT(BcCrystalLaser, bc_crystal_laser, 0, 0, 1, CFGFLAG_CLIENT | CFGFLAG_SAVE, "Render rifle and shotgun lasers with crystal shards and icy glow")
 

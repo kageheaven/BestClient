@@ -268,6 +268,7 @@ void CGameClient::OnConsoleInit()
 						  &m_CloudInput, // BestClient
 						  &m_BcAutoMargin, // BestClient
 						  &m_MapLayersForeground,
+						  &m_BcNightMode, // BestClient
 						  &m_MovingTilesForeground, // TClient
 					      &m_SelfTimeCp, // BestClient
 					      &m_ShowPoints, // BestClient

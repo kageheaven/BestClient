@@ -2878,6 +2878,8 @@ if(CLIENT)
     components/bestclient/music_player.h
     components/bestclient/music_player_lyrics.cpp
     components/bestclient/music_player_lyrics.h
+    components/bestclient/nightmode.cpp
+    components/bestclient/nightmode.h
     components/bestclient/quick_binds.cpp
     components/bestclient/quick_binds.h
     components/bestclient/r_jelly.cpp

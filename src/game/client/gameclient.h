@@ -99,6 +99,7 @@
 #include "components/bestclient/hookcombo.h"
 #include "components/bestclient/hud_editor.h"
 #include "components/bestclient/music_player.h"
+#include "components/bestclient/nightmode.h"
 #include "components/bestclient/quick_binds.h"
 #include "components/bestclient/self_time_cp.h"
 #include "components/bestclient/show_points.h"
@@ -260,6 +261,7 @@ public:
 	CTranslate m_Translate;
 	CHookCombo m_HookCombo;
 	CBcGradient m_BcGradient;
+	CBcNightMode m_BcNightMode;
 	C3DParticles m_3DParticles;
 	CQuickBinds m_QuickBinds; // BestClient
 	CSelfTimeCp m_SelfTimeCp; // BestClient
